@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 iOS CSS theme styles-->
+    <!--<link rel="stylesheet" href="css/toast.css">-->
+    <script type="text/javascript" src="lib-flexible-master/build/flexible_css.debug.js"></script>
+    <script type="text/javascript" src="lib-flexible-master/build/flexible.debug.js"></script>
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <script type="text/javascript" src="js/demo.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!--<script type="text/javascript" src="js/toast.js"></script>-->
+    <link rel="stylesheet" href="css/framework7-icons.css">
+    <link rel="stylesheet" href="css/framework7.keypad.css">
+    <!-- Path to Framework7 iOS related color styles -->
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+</head>
+<body>
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+<div class="views">
+    <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="pages">
+            <div data-page="message-center" class="page no-toolbar">
+                <div class="page-content" style="padding:0;background-color: white">
+                    <div class="message-body ">
+                        <div class="message-title">
+                            <div class="left">
+                                <div class="title-left active title recommend-title">推荐消息</div>
+                            </div>
+                            <div class="right">
+                                <div class="title-right title system-title">系统通知</div>
+                            </div>
+                        </div>
+                        <div class="message-interval"></div>
+                        <!-- =================================================================== -->
+                        <div class="tabs recommend ">
+                            <!-- Tab 1, active by default -->
+                            <div class="tab recommend active">
+                                <div class="message-empty">
+                                </div>
+                                <!--<div class="recommend-message-body">-->
+                                    <!--<div class="content-block">-->
+                                        <!--<div class="recommend-img">-->
+                                            <!--<a href=""><img src="./img/images/recommend-img.png"></a>-->
+                                        <!--</div>-->
+                                        <!--<div class="recommend-title">-->
+                                            <!--<div class="recommend-title-left"><div class="img"><img src="./img/images/message.png" alt=""></div><div class="title">最求极致，轻易不说完美</div></div>-->
+                                            <!--<div class="recommend-title-right">2017-05-17</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="recommend-message-body">-->
+                                    <!--<div class="content-block">-->
+                                        <!--<div class="recommend-img">-->
+                                            <!--<a href=""><img src="./img/images/recommend-img.png"></a>-->
+                                        <!--</div>-->
+                                        <!--<div class="recommend-title">-->
+                                            <!--<div class="recommend-title-left">最求极致，轻易不说完美</div>-->
+                                            <!--<div class="recommend-title-right">2017-05-17</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="recommend-message-body">-->
+                                    <!--<div class="content-block">-->
+                                        <!--<div class="recommend-img">-->
+                                            <!--<a href=""><img src="./img/images/recommend-img.png"></a>-->
+                                        <!--</div>-->
+                                        <!--<div class="recommend-title">-->
+                                            <!--<div class="recommend-title-left">最求极致，轻易不说完美</div>-->
+                                            <!--<div class="recommend-title-right">2017-05-17</div>-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            </div>
+                            <!-- Tab 2 -->
+                            <div class="tab system">
+                                <div class="message-empty">
+                                </div>
+                                <!--<div class="system-message-body">-->
+                                    <!--<div class="content-block">-->
+                                        <!--<a href="" class="">-->
+                                            <!--<div class="system-message-title">-->
+                                                <!--<div class="system-title-left">-->
+                                                    <!--查看详情-->
+                                                <!--</div>-->
+                                                <!--<div class="system-title-right">-->
+                                                    <!--<img src="./img/images/arrow-right.png" alt="">-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</a>-->
+                                        <!--<div class="system-body">-->
+                                            <!--您有伊扎古您有伊古您有伊扎古您有伊伊扎古您有伊扎古您有伊扎古您有伊扎古您有伊扎古-->
+                                        <!--</div>-->
+                                        <!--<div class="system-time">-->
+                                            <!--2017-05-25 15:30-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="system-message-body">-->
+                                    <!--<div class="content-block">-->
+                                        <!--<a href="" class="">-->
+                                            <!--<div class="system-message-title">-->
+                                                <!--<div class="system-title-left">-->
+                                                    <!--<div class="img"><img src="./img/images/message.png" alt=""></div>-->
+                                                    <!--查看详情-->
+                                                <!--</div>-->
+                                                <!--<div class="system-title-right">-->
+                                                    <!--<img src="./img/images/arrow-right.png" alt="">-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</a>-->
+                                        <!--<div class="system-body">-->
+                                            <!--您有伊扎古您有伊扎古您有伊有有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊扎古您有伊扎古您有伊扎古您有伊扎古-->
+                                        <!--</div>-->
+                                        <!--<div class="system-time">-->
+                                            <!--2017-05-25 15:30-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                                <!--<div class="system-message-body">-->
+                                    <!--<div class="content-block">-->
+                                        <!--<a href="" class="">-->
+                                            <!--<div class="system-message-title">-->
+                                                <!--<div class="system-title-left">-->
+                                                    <!--查看详情-->
+                                                <!--</div>-->
+                                                <!--<div class="system-title-right">-->
+                                                    <!--<img src="./img/images/arrow-right.png" alt="">-->
+                                                <!--</div>-->
+                                            <!--</div>-->
+                                        <!--</a>-->
+                                        <!--<div class="system-body">-->
+                                            <!--您有伊扎古您有伊扎古您有伊有有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊有伊扎古您有伊扎古您有伊扎古您有伊扎古您有伊扎古您有伊扎古-->
+                                        <!--</div>-->
+                                        <!--<div class="system-time">-->
+                                            <!--2017-05-25 15:30-->
+                                        <!--</div>-->
+                                    <!--</div>-->
+                                <!--</div>-->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 工具栏-->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Path to Framework7 Library JS-->
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<script type="text/javascript" src="js/framework7.keypad.min.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src='js/index.js'></script>
+<!-- Path to your app js-->
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 iOS CSS theme styles-->
+    <!--<link rel="stylesheet" href="css/toast.css">-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <script type="text/javascript" src="lib-flexible-master/build/flexible_css.debug.js"></script>
+    <script type="text/javascript" src="lib-flexible-master/build/flexible.debug.js"></script>
+    <!-- <script type="text/javascript" src="js/demo.js"></script> -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <!--<script type="text/javascript" src="js/toast.js"></script>-->
+    <link rel="stylesheet" href="css/framework7-icons.css">
+    <!-- Path to Framework7 iOS related color styles -->
+    <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/framework7.keypad.css">
+
+    <link rel="stylesheet" href="css/my-app.css">
+</head>
+<body>
+<!-- Status bar overlay for full screen mode (PhoneGap) -->
+<div class="statusbar-overlay"></div>
+<!-- Panels overlay-->
+<div class="panel-overlay"></div>
+<div class="views">
+    <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="pages">
+            <div data-page="order-my" class="page no-toolbar">
+                <div class="page-content" style="padding:0">
+                    <div class="order-my-body">
+                        <div class="order-my-address">
+                            <div class="relation">
+                                联系人 : <span class="name">马云</span><span class="iphone">123123456</span>
+                            </div>
+                            <div class="address">
+                                <div>地址 : <span>上海市静安区江宁路495号</span></div>
+                                <div class="logistics"><span>物流信息</span><img src="./img/images/buttom.png" alt=""></div>
+                            </div>
+                            <div class="logistics-details active">
+                                <div><span class="logistics-name">顺丰物流</span><span class="logistics-number">121212121212121212</span>
+                                </div>
+                                <div class="logistics-none"><img src="./img/images/top.png" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="order-interval"></div>
+                        <div class="order-all-list">
+                            <div class="order-all-item">
+                                <div class="all-item-title">
+                                    <div class="item-title-left">
+                                        <span>oppo 旗舰店</span>
+                                    </div>
+                                    <div class="item-state">
+                                        订单已确认
+                                    </div>
+                                </div>
+                                <div class="item-body-img">
+                                    <div class="body-img-left">
+                                        <img src="./img/images/order.png" alt="">
+                                    </div>
+                                    <div class="body-img-right">
+                                        <div class="right-title">OPPO R9S 全网通前置1600万像素智能拍照</div>
+                                        <div class="right-money"><span class="money-old"><i>¥</i>5999</span><span
+                                                class="money-new">¥ 5999</span><span class="preferential">优惠价</span></div>
+                                        <div class="right-stages">
+                                            <div><i>¥</i><span class=money>114元 /</span><span class="text">月 起</span></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="order-time"><span>下单时间</span><span class="time">2015-12-25</span></div>
+                                <div class="order-card"><span>订单编号</span><span class="number">212121212121</span></div>
+                            </div>
+                        </div>
+                        <div class="order-interval"></div>
+                        <div class="order-all-bottom">
+                            <div class="all-bottom-standard"><span class="name">规格</span><span class="standard">翡翠绿</span></div>
+                            <div class="all-bottom-count"><span class="name">数量</span><span class="count">1</span></div>
+                            <div class="all-bottom-freight"><span class="name">运费</span><span
+                                    class="status">免邮 / ¥10</span></div>
+                            <div class="all-bottom-favorable"><span class="name">优惠</span><span class="money"><i>¥</i>100</span></div>
+                            <div class="all-bottom-integral" style="display: none;"><span class="name">积分</span></span><span
+                                    class="integral">抵扣 ¥600</span></div>
+                            <div class="all-bottom-money"><span class="money">小计:&nbsp&nbsp<i>¥ </i><span>2900</span></span></span>
+                            </div>
+                            <div class="all-bottom-first"><span class="name">畅分期</span><div><span class="first-money-title">首付金额</span><i>¥</i><span class="first-money-body">1200</span></div></div>
+                        </div>
+                        <div class="item-body-status">
+                            <div class="">查看协议</div>
+                            <div class="bill">查看账单</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Path to Framework7 Library JS-->
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/framework7.keypad.min.js"></script>
+<script type="text/javascript" src='js/index.js'></script>
+<!-- Path to your app js-->
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>

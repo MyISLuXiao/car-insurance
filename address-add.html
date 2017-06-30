@@ -1,0 +1,46 @@
+<div class="views">
+    <div class="view view-main">
+        <!-- Top Navbar-->
+        <div class="pages">
+            <div data-page="address-add" class="page no-toolbar">
+                <div class="page-content" style="padding:0">
+                    <div class="address-add-body">
+                        <form>
+                            <div class="address-form">
+                                <div class="form-name">
+                                    <div>姓名</div>
+                                    <div><input type="text"></div>
+                                </div>
+                                <div class="form-iphone">
+                                    <div>手机号码</div>
+                                    <div><input type="text" maxlength="11" name="iphone" onkeyup="this.value=this.value.replace(/[^\d]/ig,'')"></div>
+                                </div>
+                                <div class="order-interval"></div>
+                                <div class="form-address">
+                                    <div>省/市</div>
+                                    <div class="address-province">
+                                        <input type="text" id="c" placeholder="" value="" readonly>
+                                        <input type="text" placeholder="请选择" readonly id="city" value="">
+                                    </div>
+                                </div>
+                                <div class="form-address-details">详细地址</div>
+                                <div class="form-Textarea"><textarea rows="7" cols="41"></textarea></div>
+                                <div class="from-checked">
+                                    <label class="label-checkbox item-content">
+                                        <input type="checkbox" name="my-checkbox" value="" checked>
+                                        <div class="item-media">
+                                            <i class="icon icon-form-checkbox"></i>
+                                        </div>
+                                    </label>
+                                    <div class="text">默认地址</div>
+                                </div>
+                                <div class="stages-submit">确认</div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!-- 工具栏-->
+            </div>
+        </div>
+    </div>
+</div>
